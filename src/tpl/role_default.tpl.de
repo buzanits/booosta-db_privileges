@@ -1,0 +1,12 @@
+{BBOXCENTER}
+{BPANEL|paneltitle::Rollen}
+{BLINKADD|Neue Rolle|admin_role.php?action=new}
+<br>
+<br>
+
+{%liste}
+
+
+{/BPANEL}
+{/BBOXCENTER}
+

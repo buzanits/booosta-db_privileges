@@ -1,0 +1,15 @@
+{BBOXCENTER}
+{BPANEL|paneltitle::Recht bearbeiten}
+
+{BFORMSTART|admin_privilege.php}
+{HIDDEN|action|editdo}
+{HIDDEN|id|{%id}}
+{HIDDEN|form_token|{%form_token}}
+
+ {BTEXT|name|{*name}|texttitle::Name}
+
+ {BFORMSUBMIT|class::center-block}
+{BFORMEND}
+{/BPANEL}
+{/BBOXCENTER}
+

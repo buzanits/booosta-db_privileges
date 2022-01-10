@@ -1,0 +1,12 @@
+{BBOXCENTER}
+{BPANEL|paneltitle::Neue Rolle}
+{BFORMSTART|admin_role.php}
+
+ {HIDDEN|action|newdo}
+ {HIDDEN|form_token|{%form_token}}
+ {BTEXT|name|texttitle::Name}
+
+{BFORMSUBMIT|class::center-block}
+{BFORMEND}
+{/BPANEL}
+{/BBOXCENTER}

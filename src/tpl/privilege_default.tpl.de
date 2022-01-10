@@ -1,0 +1,10 @@
+{BBOXCENTER}
+{BPANEL|paneltitle::Rechte}
+{BLINKADD|Neues Recht|admin_privilege.php?action=new}
+<br>
+<br>
+
+{%liste}
+
+{/BPANEL}
+{/BBOXCENTER}
