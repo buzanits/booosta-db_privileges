@@ -6,7 +6,7 @@ namespace booosta\db_privileges;
 
 trait Webapp
 {
-  protected $privileges_dir = 'lib/modules/db_privileges/';
+  protected $privileges_dir = 'vendor/booosta/db_privileges/';
 
   protected function autorun_db_privileges()
   {
