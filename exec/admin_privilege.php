@@ -16,7 +16,7 @@ class App extends \booosta\usersystem\Webappadmin
   protected $fields = 'name,edit,delete';
   protected $header = 'Privilege';
   protected $use_datatable = true;
-  protected $ui_modal_cancelpage = 'admin_privilege.php';
+  #protected $ui_modal_cancelpage = 'admin_privilege';
 
 
   protected function before_add_($data, $obj)

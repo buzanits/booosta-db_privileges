@@ -16,7 +16,7 @@ class App extends \booosta\usersystem\Webappadmin
   protected $fields = 'name,edit,delete';
   protected $header = 'Role';
   protected $use_datatable = true;
-  protected $ui_modal_cancelpage = 'admin_role.php';
+  #protected $ui_modal_cancelpage = 'admin_role.php';
 
 
   protected function after_action_edit()

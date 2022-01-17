@@ -1,7 +1,7 @@
 {BBOXCENTER}
 {BPANEL|paneltitle::Edit role}
 
-{BFORMSTART|admin_role.php}
+{BFORMSTART|admin_role{%script_extension}}
 {HIDDEN|action|editdo}
 {HIDDEN|id|{%id}}
 {HIDDEN|form_token|{%form_token}}

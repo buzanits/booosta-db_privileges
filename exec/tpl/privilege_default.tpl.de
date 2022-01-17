@@ -1,6 +1,6 @@
 {BBOXCENTER}
 {BPANEL|paneltitle::Rechte}
-{BLINKADD|Neues Recht|admin_privilege.php?action=new}
+{BLINKADD|Neues Recht|admin_privilege{%script_extension}{%script_actionstr}new}
 <br>
 <br>
 

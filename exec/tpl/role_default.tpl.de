@@ -1,6 +1,6 @@
 {BBOXCENTER}
 {BPANEL|paneltitle::Rollen}
-{BLINKADD|Neue Rolle|admin_role.php?action=new}
+{BLINKADD|Neue Rolle|admin_role{%script_extension}{%script_actionstr}new}
 <br>
 <br>
 

@@ -1,6 +1,6 @@
 {BBOXCENTER}
 {BPANEL|paneltitle::New role}
-{BFORMSTART|admin_role.php}
+{BFORMSTART|admin_role{%script_extension}}
 
  {HIDDEN|action|newdo}
  {HIDDEN|form_token|{%form_token}}
