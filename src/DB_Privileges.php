@@ -30,7 +30,7 @@ class DB_Privileges extends \booosta\privileges\Privileges
 
     foreach($subroles as $subrole):
       $subroleprivs = $this->get_all_role_privileges($subrole);
-      if(strstr($subroleprivs, 'ERROR')) return $subroleprivs;
+      if(strstr(print_r($subroleprivs, true), 'ERROR')) return $subroleprivs;
 
       $privileges = array_merge($privileges, $subroleprivs);
     endforeach;
